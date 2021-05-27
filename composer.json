@@ -1,0 +1,17 @@
+{
+	"name": "frontpack/lucy.js",
+	"type": "library",
+	"description": "Helpers for vanilla JavaScript.",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Jan Pecha",
+			"homepage": "https://www.janpecha.cz/"
+		}
+	],
+	"extra": {
+		"assets-files": [
+			"src/dom.js"
+		]
+	}
+}
