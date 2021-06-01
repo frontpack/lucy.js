@@ -53,6 +53,22 @@ LucyDom.onChildEvent(myElement, 'a.ajax', 'click', function (event) {
 });
 ```
 
+## Modal
+
+Include `src/modal.js`.
+
+```js
+var myModal = new LucyModal('My Title', function (modal) {
+	console.log('Modal opened!');
+	modal.title.textContent = 'Hello Title!';
+	modal.body.innerHTML = '<p>Modal content</p>';
+	modal.closeButton.setAttribute('title', 'Close this');
+
+}, function (modal) {
+	console.log('Modal closed!');
+});
+```
+
 ------------------------------
 
 License: [New BSD License](license.md)
