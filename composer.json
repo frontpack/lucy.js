@@ -13,6 +13,9 @@
 		"assets-files": [
 			"src/dom.js",
 			"src/modal.js"
+		],
+		"cleaner-ignore": [
+			"src/"
 		]
 	}
 }
