@@ -10,10 +10,7 @@
 		}
 	],
 	"extra": {
-		"assets-files": [
-			"src/dom.js",
-			"src/modal.js"
-		],
+		"assets-files": "src/",
 		"cleaner-ignore": [
 			"src/"
 		]
