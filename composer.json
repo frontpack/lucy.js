@@ -9,6 +9,9 @@
 			"homepage": "https://www.janpecha.cz/"
 		}
 	],
+	"autoload": {
+		"classmap": ["bridges/"]
+	},
 	"extra": {
 		"assets-files": "src/",
 		"cleaner-ignore": [
