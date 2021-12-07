@@ -8,6 +8,18 @@
 		return root.getElementById(id);
 	};
 
+	LucyDom.each = function (root, selector, visitor) {
+		var elements = this.findAll(root, selector);
+
+		for (var i = 0; i < elements.length; i++) {
+			visitor(elements[i], {
+				index: i,
+				isFirst: i === 0,
+				isLast: (i + 1) === elements.length
+			});
+		}
+	};
+
 	LucyDom.findAll = function (root, selector) {
 		if (typeof root.querySelectorAll === 'undefined') {
 			return [];
