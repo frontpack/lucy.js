@@ -53,6 +53,35 @@ LucyDom.onChildEvent(myElement, 'a.ajax', 'click', function (event) {
 });
 ```
 
+## BEM
+
+Include `src/bem.js`.
+
+```js
+var bem = new LucyBem(document);
+
+// blocks
+bem.eachBlock('block', function (block, info) {
+	block.hasModifier('xyz');
+	block.addModifier('xyz');
+	block.removeModifier('xyz');
+	block.toggleModifier('xyz');
+
+	console.log(info.index);
+	console.log(info.isFirst);
+	console.log(info.isLast);
+});
+
+
+// events
+bem.onElementEvent('block', 'element', 'click', function (element, event) {
+	element.hasModifier('xyz');
+	element.addModifier('xyz');
+	element.removeModifier('xyz');
+	element.toggleModifier('xyz');
+});
+```
+
 ## Modal
 
 Include `src/modal.js`.
