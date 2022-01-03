@@ -22,6 +22,11 @@ LucyDom.getById(document, 'element-id');
 LucyDom.findAll(document, 'selector'); // returns elements collection
 LucyDom.find(document, 'selector'); // returns one element
 LucyDom.getClosest(element, 'selector');
+LucyDom.each(document, 'selector', function (element, info) {
+	console.log(info.index);
+	console.log(info.isFirst);
+	console.log(info.isLast);
+});
 
 LucyDom.hasClass(element, 'class-name');
 LucyDom.addClass(element, 'class-name');
