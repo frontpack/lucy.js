@@ -1,12 +1,15 @@
 <?php
 
-	namespace Inteve\AssetsManager\Bundles;
+	namespace Frontpack\LucyJs\Bridges;
 
 	use Inteve\AssetsManager\IAssetsBundle;
 	use Inteve\AssetsManager\Bundle;
 
 
-	class DropzoneBundle implements IAssetsBundle
+	/**
+	 * @deprecated use AssetsBundle
+	 */
+	class DomBundle implements IAssetsBundle
 	{
 		/** @var string */
 		private $basePath;
