@@ -12,6 +12,9 @@
 	"autoload": {
 		"classmap": ["bridges/"]
 	},
+	"conflict": {
+		"inteve/assets-manager": "<0.4.3"
+	},
 	"extra": {
 		"assets-files": "src/",
 		"cleaner-ignore": [

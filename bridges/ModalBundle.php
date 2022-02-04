@@ -6,6 +6,9 @@
 	use Inteve\AssetsManager\Bundle;
 
 
+	/**
+	 * @deprecated use AssetsBundle
+	 */
 	class ModalBundle implements IAssetsBundle
 	{
 		/** @var string */

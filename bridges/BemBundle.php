@@ -6,6 +6,9 @@
 	use Inteve\AssetsManager\Bundle;
 
 
+	/**
+	 * @deprecated use AssetsBundle
+	 */
 	class BemBundle implements IAssetsBundle
 	{
 		/** @var string */
