@@ -1,6 +1,6 @@
 <?php
 
-	namespace Inteve\AssetsManager\Bundles;
+	namespace Frontpack\LucyJs\Bridges;
 
 	use Inteve\AssetsManager\IAssetsBundle;
 	use Inteve\AssetsManager\Bundle;
